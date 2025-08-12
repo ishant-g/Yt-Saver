@@ -1,0 +1,21 @@
+# YouTube MP4 Downloader (Next.js)
+
+**Quick**: Paste a YouTube link on the homepage and click **Download MP4**.
+
+## Setup (local)
+1. Clone repo
+2. `npm install`
+3. `npm run dev`
+4. Visit `http://localhost:3000`
+
+## Deploy to Vercel
+1. Push this repo to GitHub.
+2. Go to vercel.com → Import Project → Select your GitHub repo.
+3. Use defaults. Vercel will install dependencies and deploy.
+
+**Warning about Vercel:** Vercel serverless functions are subject to execution time & memory limits. Downloading large videos may fail. If you get truncated downloads, consider deploying the API to Railway, Render, or a small VPS that supports long-running processes.
+
+## Legal & Responsible Use
+Only download videos you own or have explicit permission to download. Do not use this app to infringe copyright or circumvent access restrictions.
+
+## Ads: quick guide included in AD_GUIDE.md
